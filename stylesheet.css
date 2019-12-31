@@ -1302,7 +1302,9 @@ audio {
 
 .visible-force{
 	display: inline !important;
+	animation-delay: 10s;
 }
+
 
     /*controlling tablet width*/
     /*@media only screen and (max-width: 720px){
