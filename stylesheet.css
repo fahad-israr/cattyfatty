@@ -1304,7 +1304,9 @@ audio {
 	display: inline !important;
 	animation-delay: 10s;
 }
-
+.last{
+	animation-delay: 10s !important;
+}
 
     /*controlling tablet width*/
     /*@media only screen and (max-width: 720px){
