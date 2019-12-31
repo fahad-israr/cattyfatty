@@ -169,7 +169,7 @@ $('document').ready(function(){
 		$('.cake').fadeOut('fast').promise().done(function(){
 			$('.message').fadeIn('slow');
 			$('#wishes').fadeIn('slow');
-			$('#wishes').addClass('visible-force');
+			$('#wishes').addClass('visible-force')..delay(6000);
 		});
 		
 		var i;
