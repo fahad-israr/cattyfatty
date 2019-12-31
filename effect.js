@@ -168,8 +168,8 @@ $('document').ready(function(){
 		$(this).fadeOut('slow');
 		$('.cake').fadeOut('fast').promise().done(function(){
 			$('.message').fadeIn('slow');
-			$('#wishes').fadeIn('slow');
-			$('#wishes').addClass('visible-force').delay(6000);
+			$('#wishes').fadeIn('slow').delay(15000);
+			$('#wishes').addClass('visible-force').delay(15000);
 		});
 		
 		var i;
