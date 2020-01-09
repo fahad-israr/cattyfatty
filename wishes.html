@@ -3,6 +3,10 @@
 <head>
 <title>HBD Shubhangi</title>
 <style>
+   audio{
+     display: none;
+
+  }
     body{
         overflow: hidden;
         background-image: url(./cake.jpeg);
@@ -161,6 +165,10 @@
 </head>
 
 <body>
+  <audio  autoplay controls loop>
+    <source src="hbd.mp3" ></source>
+ Your browser isn't invited for super fun audio time.
+</audio>
     <h1 style="color:whitesmoke;text-align: center;">coz its 10th Jan 2020</h1>
     <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -357,8 +365,10 @@
 
 
 <script>
+  
   window.onload = setTimeout(function(){//window.addEventListener('load',function(){...}); (for Netscape) and window.attachEvent('onload',function(){...}); (for IE and Opera) also work
-    alert('Hey Shubangi....Plz Hover/click on the images to reveal msg :)');},1000);
+    alert('Hey Shubangi....Plz Hover/click on the images to reveal msg :)');
+    },1000);
 
     var slideIndex = 1;
 showSlides(slideIndex);
